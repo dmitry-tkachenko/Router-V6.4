@@ -7,16 +7,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencies
+# Directories
 node_modules
+coverage
+build
+.yarn/*
 dist
 dist-ssr
 *.local
-.yarn/*
-.pnp*
 
-# Testing
-/coverage
+# Config files
+.prettierrc.json
 
 # Editor directories and files
 .vscode/*
